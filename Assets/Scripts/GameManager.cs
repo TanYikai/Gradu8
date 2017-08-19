@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using GooglePlayGames;
+using GooglePlayGames.BasicApi;
 
 public class GameManager : MonoBehaviour {
 
@@ -99,8 +101,19 @@ public class GameManager : MonoBehaviour {
 
         FindObjectOfType<SoundManager>().BGMStop();
 
-        //StartCoroutine("RestartGameCo");//calls the RestartGameCo() method
-    }
+        if (PlayGamesPlatform.Instance.localUser.authenticated)
+        {
+            // Note: make sure to add 'using GooglePlayGames'
+            PlayGamesPlatform.Instance.ReportScore((long)theScoreManager.hiScoreCount,
+                GPGSIds.leaderboard_high_score,
+                (bool success) =>
+                {
+                    Debug.Log("(Gradu8) Leaderboard update success: " + success);
+                });
+        }
+
+    //StartCoroutine("RestartGameCo");//calls the RestartGameCo() method
+}
 
     public void Reset()
     {
