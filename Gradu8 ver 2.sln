@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gradu8 ver 2.Plugins", "Gradu8 ver 2.Plugins.csproj", "{EE5C9001-7580-7DF1-D712-193F5B865591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gradu8 ver 2", "Gradu8 ver 2.csproj", "{A06EA7BF-0012-03D2-4B46-BF7A02982AE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gradu8 ver 2.Editor.Plugins", "Gradu8 ver 2.Editor.Plugins.csproj", "{6A074A2A-7AD7-37C3-B4AE-E0890B4A95D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE5C9001-7580-7DF1-D712-193F5B865591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE5C9001-7580-7DF1-D712-193F5B865591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE5C9001-7580-7DF1-D712-193F5B865591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE5C9001-7580-7DF1-D712-193F5B865591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A06EA7BF-0012-03D2-4B46-BF7A02982AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A06EA7BF-0012-03D2-4B46-BF7A02982AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A06EA7BF-0012-03D2-4B46-BF7A02982AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A06EA7BF-0012-03D2-4B46-BF7A02982AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A074A2A-7AD7-37C3-B4AE-E0890B4A95D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A074A2A-7AD7-37C3-B4AE-E0890B4A95D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A074A2A-7AD7-37C3-B4AE-E0890B4A95D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A074A2A-7AD7-37C3-B4AE-E0890B4A95D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

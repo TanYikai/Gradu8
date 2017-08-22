@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BossController.cs">
+    <Files>
+      <File FileName="Assets\Scripts\BossController.cs" Line="99" Column="78" />
+      <File FileName="Assets\Scripts\BombManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PowerupManager.cs" Line="104" Column="58" />
+      <File FileName="Assets\Scripts\AttackWeapon.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Blackly.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
