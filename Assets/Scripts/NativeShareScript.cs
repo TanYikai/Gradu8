@@ -47,6 +47,7 @@ public class NativeShareScript : MonoBehaviour {
             yield return new WaitForSecondsRealtime(1);
         }
 
+        //For unity editor testing purposes
         yield return new WaitUntil(() => isFocus);
         CanvasShareObj.SetActive(false);
         isProcessing = false;
