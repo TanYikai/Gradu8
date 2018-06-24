@@ -334,6 +334,11 @@
         <para>The GameObject that was selected first.</para>
       </summary>
     </member>
+    <member name="P:UnityEngine.EventSystems.EventSystem.isFocused">
+      <summary>
+        <para>Flag to say weather the EventSystem thinks it should be paused or not based upon focused state.</para>
+      </summary>
+    </member>
     <member name="P:UnityEngine.EventSystems.EventSystem.pixelDragThreshold">
       <summary>
         <para>The soft area for dragging in pixels.</para>
@@ -853,7 +858,7 @@
     </member>
     <member name="M:UnityEngine.EventSystems.IPointerClickHandler.OnPointerClick(UnityEngine.EventSystems.PointerEventData)">
       <summary>
-        <para></para>
+        <para>Use this callback to detect clicks.</para>
       </summary>
       <param name="eventData">Current event data.</param>
     </member>
@@ -947,32 +952,32 @@
     </member>
     <member name="T:UnityEngine.EventSystems.MoveDirection">
       <summary>
-        <para>8 direction movement enum.</para>
+        <para>This is an 8 direction movement enum.</para>
       </summary>
     </member>
     <member name="F:UnityEngine.EventSystems.MoveDirection.Down">
       <summary>
-        <para>Down.</para>
+        <para>The Down State of MoveDirection. Assign functionality for moving in a downward direction.</para>
       </summary>
     </member>
     <member name="F:UnityEngine.EventSystems.MoveDirection.Left">
       <summary>
-        <para>Left.</para>
+        <para>This is the Left state of MoveDirection.  Assign functionality for moving to the left.</para>
       </summary>
     </member>
     <member name="F:UnityEngine.EventSystems.MoveDirection.None">
       <summary>
-        <para>None.</para>
+        <para>This is the None state. Assign functionality that stops movement.</para>
       </summary>
     </member>
     <member name="F:UnityEngine.EventSystems.MoveDirection.Right">
       <summary>
-        <para>Right.</para>
+        <para>This is the Right state of MoveDirection. Assign functionality for moving to the right.</para>
       </summary>
     </member>
     <member name="F:UnityEngine.EventSystems.MoveDirection.Up">
       <summary>
-        <para>Up.</para>
+        <para>This is the Up state of MoveDirection.  Assign functionality for moving in an upward direction.</para>
       </summary>
     </member>
     <member name="T:UnityEngine.EventSystems.Physics2DRaycaster">
@@ -1010,6 +1015,11 @@
     <member name="P:UnityEngine.EventSystems.PhysicsRaycaster.finalEventMask">
       <summary>
         <para>Logical and of Camera mask and eventMask.</para>
+      </summary>
+    </member>
+    <member name="P:UnityEngine.EventSystems.PhysicsRaycaster.maxRayIntersections">
+      <summary>
+        <para>Max number of ray intersection allowed to be found.</para>
       </summary>
     </member>
     <member name="M:UnityEngine.EventSystems.PhysicsRaycaster.ComputeRayAndDistance(UnityEngine.EventSystems.PointerEventData,UnityEngine.Ray&amp;,System.Single&amp;)">
@@ -1726,10 +1736,11 @@
         <para>See MonoBehaviour.OnDisable.</para>
       </summary>
     </member>
-    <member name="M:UnityEngine.UI.AspectRatioFitter.SetDirty">
+    <member name="M:UnityEngine.UI.AspectRatioFitter.SetDirty()">
       <summary>
         <para>Mark the AspectRatioFitter as dirty.</para>
       </summary>
+      <param name="delayUpdate"></param>
     </member>
     <member name="M:UnityEngine.UI.AspectRatioFitter.SetLayoutHorizontal">
       <summary>
@@ -3432,7 +3443,7 @@ Used if the native representation has been destroyed.</para>
     </member>
     <member name="T:UnityEngine.UI.Image.FillMethod">
       <summary>
-        <para>Fill method to be used by the Image.</para>
+        <para>Fill method to be used by the UI.Image.</para>
       </summary>
     </member>
     <member name="F:UnityEngine.UI.Image.FillMethod.Horizontal">
@@ -4950,7 +4961,7 @@ Characters 0-9, . (dot), and - (dash / minus sign) are allowed. The dash is only
         <para>UnityEvent callback for when a scrollbar is scrolled.</para>
       </summary>
     </member>
-    <member name="M:UnityEngine.UI.Scrollbar.SetDirection(UnityEngine.UI.Scrollbar/Direction,System.Boolean)">
+    <member name="M:UnityEngine.UI.Scrollbar.SetDirection">
       <summary>
         <para>Set the direction of the scrollbar, optionally setting the layout as well.</para>
       </summary>
@@ -5672,7 +5683,7 @@ Characters 0-9, . (dot), and - (dash / minus sign) are allowed. The dash is only
       <param name="input">The new value for the slider.</param>
       <param name="sendCallback">If the OnValueChanged callback should be invoked.</param>
     </member>
-    <member name="M:UnityEngine.UI.Slider.SetDirection(UnityEngine.UI.Slider/Direction,System.Boolean)">
+    <member name="M:UnityEngine.UI.Slider.SetDirection">
       <summary>
         <para>Sets the direction of this slider, optionally changing the layout as well.</para>
       </summary>
@@ -5681,7 +5692,7 @@ Characters 0-9, . (dot), and - (dash / minus sign) are allowed. The dash is only
     </member>
     <member name="T:UnityEngine.UI.Slider.SliderEvent">
       <summary>
-        <para>Event type used by the Slider.</para>
+        <para>Event type used by the UI.Slider.</para>
       </summary>
     </member>
     <member name="T:UnityEngine.UI.SpriteState">
@@ -5821,7 +5832,7 @@ Characters 0-9, . (dot), and - (dash / minus sign) are allowed. The dash is only
     </member>
     <member name="P:UnityEngine.UI.Text.text">
       <summary>
-        <para>The string value this text will display.</para>
+        <para>The string value this Text displays.</para>
       </summary>
     </member>
     <member name="P:UnityEngine.UI.Text.verticalOverflow">
@@ -5881,7 +5892,7 @@ Characters 0-9, . (dot), and - (dash / minus sign) are allowed. The dash is only
     </member>
     <member name="P:UnityEngine.UI.Toggle.isOn">
       <summary>
-        <para>Is the toggle on.</para>
+        <para>Return or set whether the Toggle is on or not.</para>
       </summary>
     </member>
     <member name="F:UnityEngine.UI.Toggle.onValueChanged">
@@ -5949,7 +5960,7 @@ Characters 0-9, . (dot), and - (dash / minus sign) are allowed. The dash is only
     </member>
     <member name="T:UnityEngine.UI.ToggleGroup">
       <summary>
-        <para>A component that represents a group of Toggles.</para>
+        <para>A component that represents a group of UI.Toggles.</para>
       </summary>
     </member>
     <member name="P:UnityEngine.UI.ToggleGroup.allowSwitchOff">
@@ -5970,13 +5981,12 @@ Characters 0-9, . (dot), and - (dash / minus sign) are allowed. The dash is only
         <para>Are any of the toggles on?</para>
       </summary>
     </member>
-    <member name="M:UnityEngine.UI.ToggleGroup.NotifyToggleOn(UnityEngine.UI.Toggle)">
+    <member name="M:UnityEngine.UI.ToggleGroup.NotifyToggleOn">
       <summary>
         <para>Notify the group that the given toggle is enabled.</para>
       </summary>
-      <param name="toggle"></param>
     </member>
-    <member name="M:UnityEngine.UI.ToggleGroup.RegisterToggle(UnityEngine.UI.Toggle)">
+    <member name="M:UnityEngine.UI.ToggleGroup.RegisterToggle">
       <summary>
         <para>Register a toggle with the group.</para>
       </summary>
@@ -5987,7 +5997,7 @@ Characters 0-9, . (dot), and - (dash / minus sign) are allowed. The dash is only
         <para>Switch all toggles off.</para>
       </summary>
     </member>
-    <member name="M:UnityEngine.UI.ToggleGroup.UnregisterToggle(UnityEngine.UI.Toggle)">
+    <member name="M:UnityEngine.UI.ToggleGroup.UnregisterToggle">
       <summary>
         <para>Toggle to unregister.</para>
       </summary>
@@ -6024,7 +6034,7 @@ Characters 0-9, . (dot), and - (dash / minus sign) are allowed. The dash is only
     </member>
     <member name="M:UnityEngine.UI.VertexHelper.AddUIVertexStream(System.Collections.Generic.List`1&lt;UnityEngine.UIVertex&gt;,System.Collections.Generic.List`1&lt;System.Int32&gt;)">
       <summary>
-        <para>Add a stream of custom UIVertex and corrisponding indices.</para>
+        <para>Add a stream of custom UIVertex and corresponding indices.</para>
       </summary>
       <param name="verts">The custom stream of verts to add to the helpers internal data.</param>
       <param name="indices">The custom stream of indices to add to the helpers internal data.</param>

@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -108,10 +108,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 917, y: 442}
-  m_MaxSize: {x: 22012, y: 10021}
+  m_MinSize: {x: 913, y: 442}
+  m_MaxSize: {x: 22008, y: 10021}
   vertical: 0
-  controlID: 1798
+  controlID: 69
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 1799
+  controlID: 50
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,8 +154,8 @@ MonoBehaviour:
     y: 0
     width: 752
     height: 300
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -206,8 +206,8 @@ MonoBehaviour:
     y: 0
     width: 223
     height: 731
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -290,6 +290,7 @@ MonoBehaviour:
     y: 392
     width: 750
     height: 410
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -366,6 +367,7 @@ MonoBehaviour:
     y: 92
     width: 750
     height: 279
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
   lastFramingTime: 6028.992840694186
   m_2DMode: 1
@@ -383,6 +385,7 @@ MonoBehaviour:
     showSkybox: 0
     showFlares: 0
     showImageEffects: 0
+    showParticleSystems: 1
   grid:
     xGrid:
       m_Target: 0
@@ -408,6 +411,7 @@ MonoBehaviour:
     m_Target: 1
     speed: 2
     m_Value: 1
+  m_ShowGlobalGrid: 1
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
@@ -440,6 +444,7 @@ MonoBehaviour:
     y: 392
     width: 753
     height: 410
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_AnimEditor: {fileID: 0}
   m_Locked: 0
 --- !u!114 &15
@@ -468,32 +473,35 @@ MonoBehaviour:
     y: 392
     width: 753
     height: 410
-  m_ViewPositions:
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 1107718942880042106, guid: 5c6b07c69549232459b8933b677f1f7a, type: 2}
-    - {fileID: 1107141669017445490, guid: 3bf3e32e0cce2fa47be268cc2b21814b, type: 2}
-    - {fileID: 1107025574951829690, guid: 9f5e3a90e1976634a8fcc066697f90e3, type: 2}
-    - {fileID: 1107474475062724510, guid: 38ef89fd054ee024a97dccbd699cc17f, type: 2}
-    - {fileID: 1107172728405912084, guid: 7866df76842c12c42a83ee9e00a1ed5b, type: 2}
     m_ValueSerializationHelper:
-    - {x: 477.80005, y: 177}
-    - {x: 289.6, y: 200.40001}
-    - {x: 327.40002, y: 130.00002}
-    - {x: 415.80002, y: 294}
-    - {x: 403.80002, y: 246.00002}
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 5c6b07c69549232459b8933b677f1f7a,
-    type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: 1107718942880042106, guid: 5c6b07c69549232459b8933b677f1f7a,
-      type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
+  m_AnimatorController: {fileID: 0}
+  m_BreadCrumbs: []
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
   blendTreeGraph: {fileID: 0}
   blendTreeGraphGUI: {fileID: 0}
   m_AutoLiveLink: 1
-  m_LiveLinkFollowTransitions: 0
   m_MiniTool: 0
   m_SerializedLocked: 0
   m_CurrentEditor: 1
@@ -525,11 +533,12 @@ MonoBehaviour:
     y: 92
     width: 219
     height: 710
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a8050000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 6a8bfdff309ffdff48adfdff00befdff6cccfdffe8dafdff98dcfdff9eddfdff5892feff78f9ffffcefbffff000000004a320000ba3200009033000070340000b034000096350000ee350000f8350000e65800005e590000345a0000665b00004c5c0000a45c0000ae5c0000cc7300000a750000828100007a8300002c850000209300007c95000078960000ca96000074a4000014a50000a0a5000068a6000094b300002ab500002cb60000a2b60000bcc00000d8c30000dcc3000032c50000
+    m_ExpandedIDs: 9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -578,30 +587,32 @@ MonoBehaviour:
     y: 92
     width: 253
     height: 710
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
     m_VersionControlStates: []
+    m_SoftLockControlStates: []
     m_ReferencingInstanceIDs: 
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts/Managers
+    - Assets/GooglePlayGames/Editor
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts/Managers
+  - Assets/GooglePlayGames/Editor
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\assas\Downloads\Gradu8-master (1)\Gradu8-master
+  m_LastProjectPath: C:\Users\assas\Desktop\GitHub\A GitHub Repository\Gradu8_
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2a2b0000
-    m_LastClickedID: 11050
-    m_ExpandedIDs: 0000000056270000d42700002e280000ae280000f62b0000322c0000ae2c0000bc2e0000c02e0000d62e000000ca9a3bffffff7f
+    m_SelectedIDs: f02c0000
+    m_LastClickedID: 11504
+    m_ExpandedIDs: 00000000482a00009e2a0000f22a0000682b00009c2e0000de2e00005a2f0000b42f00006c310000723100008831000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -629,7 +640,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000056270000d42700002e280000ae280000f62b0000322c0000ae2c0000bc2e0000c02e0000d62e000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000482a00009e2a0000f22a0000682b00009c2e0000de2e00005a2f0000b42f00006c3100007231000088310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -656,22 +667,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 4a27000026250000ae3800007e260000b4260000022a0000f826000074270000d0400000624a00007c27000008280000cc2c00008e25000086270000322d0000a0270000ba25000068280000da270000662500006c2800008e280000982700005a280000f4280000181e0100c46e0000462900002c370000e0030200ee2900002a2b0000de2b000000000000002d0000bc920100e02b0000582b000050280000e2290000448501001e280000ce260000542b0000522b0000d0260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Managers
-      m_OriginalName: Managers
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 11050
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
@@ -710,6 +721,7 @@ MonoBehaviour:
     y: 92
     width: 302
     height: 710
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
@@ -742,6 +754,7 @@ MonoBehaviour:
     y: 92
     width: 302
     height: 710
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   m_GlobalObjectTypeName: 
   m_RegisteredViewURLs:

@@ -24,7 +24,7 @@ public class NativeShareScript : MonoBehaviour {
 
         yield return new WaitForEndOfFrame();
 
-        Application.CaptureScreenshot("screenshot.png", 2);
+        ScreenCapture.CaptureScreenshot("screenshot.png", 2);
         string destination = Path.Combine(Application.persistentDataPath, "screenshot.png");
 
         yield return new WaitForSecondsRealtime(0.3f);
